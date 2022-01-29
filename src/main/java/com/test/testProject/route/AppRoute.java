@@ -5,7 +5,6 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 public class AppRoute {
-
     @GetMapping("/returnHello")
     public String returnHello() {
         return "Hello Avinash!";
