@@ -1,3 +1,3 @@
-# testcli test-project
+# cli test-project
 test web
 test
