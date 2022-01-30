@@ -7,14 +7,14 @@ import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 
-@CrossOrigin(origins = "*")
+@CrossOrigin(origins = "http://localhost:3000")  // 1. who can access ? --> IP identify --> frontend
 @RestController
 @RequestMapping("api/")
 public class AppRoute {
 
     @GetMapping("/returnHello")
     public String returnHello() {
-        return "Hello Avinash----Me!";
+        return "Heo World!";
     }
 
     @Autowired
